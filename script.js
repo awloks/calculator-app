@@ -39,5 +39,19 @@ function calculate() {
             currentInput = '0';
             updateDisplay();
         }, 1500);
+        
+}
+    }
+function calculatePercentage() {
+    try {
+        currentInput = (eval(currentInput) / 100).toString();
+        updateDisplay();
+    } catch (error) {
+        currentInput = 'Error';
+        updateDisplay();
+        setTimeout(() => {
+            currentInput = '0';
+            updateDisplay();
+        }, 1500);
     }
 }
