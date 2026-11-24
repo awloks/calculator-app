@@ -70,10 +70,7 @@ button:active {
 .zero {
     grid-column: span 2;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> feature/scientific-v2
 .memory-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -98,8 +95,6 @@ button:active {
 
 .memory-btn:active {
     transform: scale(0.95);
-<<<<<<< HEAD
-=======
 }
 .scientific-dropdown {
     margin-bottom: 10px;
@@ -123,5 +118,4 @@ button:active {
 .scientific-dropdown option {
     background: white;
     color: #333;
->>>>>>> feature/scientific-v2
 }
